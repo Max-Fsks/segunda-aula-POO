@@ -23,5 +23,10 @@ public class Principal {
         pessoa.setNome("José");
 
         pessoa.ImprimirDadosPessoas();
+        
+        double a=3,b=2;
+        System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a, b));
+        
+        System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a));
     }
 }
