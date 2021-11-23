@@ -4,12 +4,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        Carro carro = new Carro();
-
-        carro.setCor("Vermelho");
-        carro.setNumPortas(4);
-        carro.setPlaca("Jnva-1563");
-        carro.setTipo("Fusca");
+        Carro carro = new Carro("gol", "preto", "PSG-2503", 2);
 
         carro.imprimeDadosCarro();
 
@@ -23,10 +18,17 @@ public class Principal {
         pessoa.setNome("José");
 
         pessoa.ImprimirDadosPessoas();
-        
-        double a=3,b=2;
-        System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a, b));
-        
-        System.out.println("Quadrado de "+a+" é: "+Calculo.elevar(a));
+
+        /*double a = 3, b = 2;
+        System.out.println("Quadrado de " + a + " é: " + Calculo.elevar(a, b));
+
+        System.out.println("Quadrado de " + a + " é: " + Calculo.elevar(a));*/
+        Carro outroCarro = new Carro();
+        outroCarro.setCor("preto");
+        outroCarro.setNumPortas(4);
+        outroCarro.setPlaca("PPA-7264");
+        outroCarro.setTipo("fusca");
+
+        outroCarro.imprimeDadosCarro();
     }
 }

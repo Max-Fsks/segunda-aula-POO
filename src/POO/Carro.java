@@ -7,6 +7,17 @@ public class Carro {
     String placa;
     int numPortas;
 
+    public Carro() {
+
+    }
+
+    public Carro(String tipo, String cor, String placa, int numPortas) {
+        this.tipo = tipo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numPortas = numPortas;
+    }
+
     void imprimeDadosCarro() {
         System.out.println("---------CARRO----------");
         System.out.println("Cor do carro: " + cor);

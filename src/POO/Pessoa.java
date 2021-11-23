@@ -8,8 +8,8 @@ public class Pessoa {
     String Etnia;
     String Genero;
     int Idade;
-    
-    void ImprimirDadosPessoas(){
+
+    void ImprimirDadosPessoas() {
         System.out.println("-------PESSOA-------");
         System.out.println("Nome: " + Nome);
         System.out.println("Altura: " + Altura);
