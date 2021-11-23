@@ -11,11 +11,7 @@ public class Principal {
         carro.setPlaca("Jnva-1563");
         carro.setTipo("Fusca");
 
-        System.out.println("---------CARRO----------");
-        System.out.println("Cor do carro: " + carro.getCor());
-        System.out.println("Numero de portas: " + carro.getNumPortas());
-        System.out.println("Placa: " + carro.getPlaca());
-        System.out.println("Modelo do carro: " + carro.getTipo());
+        carro.imprimeDadosCarro();
 
         Pessoa pessoa = new Pessoa();
 
@@ -26,11 +22,6 @@ public class Principal {
         pessoa.setPeso(77.80);
         pessoa.setNome("José");
 
-        System.out.println("-------PESSOA-------");
-        System.out.println("Nome: " + pessoa.getNome());
-        System.out.println("Altura: " + pessoa.getAltura());
-        System.out.println("Genero: " + pessoa.getGenero());
-        System.out.println("Idade: " + pessoa.getIdade());
-        System.out.println("Peso: " + pessoa.getPeso());
+        pessoa.ImprimirDadosPessoas();
     }
 }

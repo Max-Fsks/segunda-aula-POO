@@ -8,6 +8,15 @@ public class Pessoa {
     String Etnia;
     String Genero;
     int Idade;
+    
+    void ImprimirDadosPessoas(){
+        System.out.println("-------PESSOA-------");
+        System.out.println("Nome: " + Nome);
+        System.out.println("Altura: " + Altura);
+        System.out.println("Genero: " + Genero);
+        System.out.println("Idade: " + Idade);
+        System.out.println("Peso: " + Peso);
+    }
 
     public double getAltura() {
         return Altura;
@@ -46,14 +55,14 @@ public class Pessoa {
     }
 
     public void setIdade(int Idade) {
-        this.Idade = Idade;                                                             
+        this.Idade = Idade;
     }
-    
-    public String getNome(){
+
+    public String getNome() {
         return Nome;
     }
-    
-    public void setNome(String Nome){
+
+    public void setNome(String Nome) {
         this.Nome = Nome;
     }
 }
